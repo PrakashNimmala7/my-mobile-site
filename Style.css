@@ -1,0 +1,110 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+h1, h2{
+    font-family: 'Fredoka One', cursive;
+    color: orangered;
+    line-height: 2;
+}
+h3{
+    color: #4682B4;
+    font-family: 'Fredoka One', cursive;
+}
+p{
+    font-family: 'Akaya Kanadaka', cursive;
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+a{
+    color: #11999E;
+}
+span.underline{
+    text-decoration: underline;
+}
+hr{
+    border: 3px dotted 	blue;
+    border-bottom: none;
+    width: 30%;
+    margin: 5% auto;
+}
+
+/* Top-Container */
+
+section#top-container{
+    margin-bottom: 10%;
+}
+
+img[src="./images/clouds.jpg"]{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+img#top-clouds{
+    position: relative;
+    left: 40%;
+}
+img#bottom-clouds{
+    position: relative;
+    right: 40%;
+}
+h1#my-name{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+}
+p#my-tag{
+    color: #ED15A7;
+    font-size: 1.5rem;
+}
+img#mountain{
+    width: 300px;
+    height: 250px;
+}
+
+/* My-Description */
+
+img#my-photo{
+    width: 150px;
+    height: 150px;
+}
+
+
+/* My-Skills */
+
+div#skills-row{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+img#skills-img{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: orangered;
+    border-width: 3px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(20, 19, 19);
+}
+
+/* Coontact-Me */
+
+button.btn{
+    background-color: black;
+    font-family: 'Fredoka One', cursive;
+    color: orangered;
+    line-height: 2;
+    border-radius: 25%;
+}
+
+/* Bottom-Container */
+section#bottom-container{
+    margin-top: 10%;
+    background-color: rgb(1, 5, 37);
+    color: whitesmoke;
+}
+img.contact-img{
+    width: 30px;
+    height: 30px;
+    margin: 4%;
+}
