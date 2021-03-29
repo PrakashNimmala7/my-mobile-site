@@ -44,11 +44,11 @@ img[src="./images/clouds.jpg"]{
 }
 img#top-clouds{
     position: relative;
-    left: 40%;
+    left: 35%;
 }
 img#bottom-clouds{
     position: relative;
-    right: 40%;
+    right: 35%;
 }
 h1#my-name{
     font-family: 'Kaushan Script', cursive;
@@ -107,4 +107,54 @@ img.contact-img{
     width: 30px;
     height: 30px;
     margin: 4%;
+}
+
+/* Media-Quaries */
+
+@media (min-width: 992px){
+    body{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    img[src="./images/clouds.jpg"]{
+        width: 200px;
+        height: 200px;
+    }
+    h1#my-name{
+        font-size: 5.625rem;
+        line-height: 2;
+    }    
+    p#my-tag{
+        font-size: 2.5rem;
+        line-height: 2;
+    }
+    img#mountain{
+        width: 800px;
+        height: 550px;
+        margin-top: 5%;
+    }
+    img#my-photo{
+        width: 300px;
+        height: 300px;
+    }
+    h1, h2{
+        line-height: 3;
+    }
+    p{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    img#skills-img{
+        width: 250px;
+        height: 250px;
+    }
+    hr{
+        border-top: 10px solid red;
+        width: 30%;
+        margin: 5% auto;
+        border-radius: 10px;
+    }
+    div#button{
+        margin-top: 5%;
+    }
 }
