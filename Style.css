@@ -89,12 +89,12 @@ img#skills-img{
 
 /* Coontact-Me */
 
-button.btn{
+a.btn{
     background-color: black;
     font-family: 'Fredoka One', cursive;
     color: orangered;
     line-height: 2;
-    border-radius: 25%;
+    border-radius: 25px;
 }
 
 /* Bottom-Container */
